@@ -4,6 +4,8 @@
 
 主页：https://jyywiki.cn/OS/2024/
 
+P.S. 好课，非常推荐！
+
 ## 功能
 
 - 下载示例代码
@@ -12,7 +14,7 @@
 ## 使用方法
 
 ```shell
-pip install -r requirements.txt
+> pip install -r requirements.txt
 ```
 
 ```shell
@@ -25,9 +27,11 @@ options:
   -h, --help            show this help message and exit
   --force               强制下载（否则若文件夹存在则不下载）
   --lectures LECTURES [LECTURES ...]
-                        指定要下载的Lecture序号
+                        指定要下载的课程序号
   --logging             输出日志信息
 ```
+
+默认下载所有（已更新的）课程的课件和示例代码。
 
 其中 `convert.py` 是下载课件并转换为HTML和PDF的脚本，`get.py` 是下载示例代码的脚本。
 
