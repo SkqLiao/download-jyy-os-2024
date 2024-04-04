@@ -1,12 +1,13 @@
 # Download JYY OS 2024
 
 课程：南京大学 操作系统：设计与实现 (2024 春季学期) 蒋炎岩
+
 主页：https://jyywiki.cn/OS/2024/
 
 ## 功能
 
 - 下载示例代码
-- 将同一节的课件打包成一个（可以本地运行的）HTML和PDF（实现方式：图像转base64、其他链接转为绝对路径）
+- 将同一节的课件打包成一个（本地的）HTML和PDF
 
 ## 使用方法
 
@@ -30,6 +31,8 @@ options:
 
 其中 `convert.py` 是下载课件并转换为HTML和PDF的脚本，`get.py` 是下载示例代码的脚本。
 
+实现方式：图像转base64、其他链接转为绝对路径
+
 文件会下载到当前路径的`os_lectures`文件夹下，第`num`节课的文件夹为`./os_lectures/lec{num}`。
 
 ## 结果
@@ -40,7 +43,7 @@ Running convert.py on Lecture 1
 Running get.py on Lecture 1
 Running convert.py on Lecture 2
 Running get.py on Lecture 2
-Processing lectures: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:41<00:00, 20.75s/it]
+Processing lectures: 100%|███████████████████████████████████████████████| 2/2 [00:41<00:00, 20.75s/it]
 
 > tree lec1 lec2 -L 1
 
