@@ -39,7 +39,7 @@ def getLectureNumber():
 
 parser = argparse.ArgumentParser(description="下载jyy OS 2024 讲义与代码")
 parser.add_argument('--force', action='store_true', help="强制下载（否则若文件夹存在则不下载）")
-parser.add_argument('--lectures', nargs='+', type=int, help="指定要下载的Lecture序号")
+parser.add_argument('--lectures', nargs='+', type=int, help="指定要下载的课程序号")
 parser.add_argument('--logging', action='store_true', help="输出日志信息")
 
 args = parser.parse_args()
